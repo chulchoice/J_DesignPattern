@@ -11,7 +11,7 @@ public abstract class Display {
 	protected abstract String getRowText(int row);
 	public final void show(){
 		for(int i=0; i<getRows(); i++){
-			//System.out.println("row="+i);
+			//System.out.println("Display row="+i);
 			System.out.println(getRowText(i));
 		}
 	}
